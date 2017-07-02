@@ -11,7 +11,7 @@ _Do not merge a pull request if the README.md is not updated accordingly :wink:_
 
 ### Week 1
 **Command line and Git & GitHub:**  
-If you add to the existing file in `week1`, you won't have to alter the `README.md` - these files have already been linked for you.
+If you add to the existing file in `week-1`, you won't have to alter the `README.md` - these files have already been linked for you.
 
 **Accessibility and CSS:**  
 Replace each "`link-to-published-site`" and "`link-to-commit`" with:
@@ -24,7 +24,7 @@ Replace each "`link-to-published-site`" and "`link-to-commit`" with:
 Note: Check [below](#commit-history) if you're not sure how to link to a particular commit in your history.
 
 ### Week 2
-Add a `week2` folder with your markdown files and update the links in the README.md, if necessary.
+Add a `week-2` folder with your markdown files and update the links in the README.md, if necessary.
 
 ### Week 3 +
 Follow the structure used for week 2 in the readme
