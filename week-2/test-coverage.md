@@ -2,7 +2,7 @@
 ##What is test coverage?
 * **Code coverage** is a measurement of how many lines/blocks/arcs of your code are executed while the automated tests are running.
  
-* In other words, in case of a program with _high degree code coverage,_ we can say that most of the codes written are being tested/called by our tests. On the other hand, we can say that a progam with _low code degree coverage_contains lines of code that can be removed or might require additional testings.
+* In other words, in case of a program with _high degree code coverage,_ we can say that most of the codes written are being tested/called by our tests. On the other hand, we can say that a program with _low code coverage_ contains lines of code that can be removed or might require additional testings.
 
 * A program with _high code coverage,_ measured as a percentage, has had more of its source code executed during testing which suggests it has a lower chance of containing undetected software bugs compared to a program with low code coverage. 
 
@@ -34,7 +34,9 @@
 * Istanbul and nyc are currently being merged. 
 
 ##How would you use them to improve your testing?
-* code coverage measures the degree of written codes being executed by given tests. So, based on code coverage report of source code & test.js developers can improve/ optimize source codes by removing unneccessary lines to increase conciseness and to add additional tests. 
+* Basically, code coverage measures the degree of written codes being executed by given tests. 
+
+* So, based on code coverage report of source code & test.js,  developers can improve/ optimize source codes by removing unneccessary lines to increase conciseness and to add additional tests on test.js. 
 
 
 ##Use Istanbul/nyc to calculate your code coverage for the TDD workshop.
