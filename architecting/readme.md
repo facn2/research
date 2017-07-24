@@ -28,17 +28,19 @@ Validation in back end - provides security
 
 ## Node vs. PHP
 
-PHP was created by Rasmus Lerdorf in 1994.
-Node.js was created by Ryan Dahl in 2009.
-PHP is a long-established language but Node.js is a young upstart receiving increased attention.
-Should PHP developers believe the Node.js hype? Should they consider switching?
+* PHP was created by Rasmus Lerdorf in 1994.
+* Node.js was created by Ryan Dahl in 2009.
+* PHP is a long-established language but Node.js is a young upstart receiving increased attention.
+* Should PHP developers believe the Node.js hype? Should they consider switching?
 
 ### Challenge 1 - Console.Log Hello
 ```javascript
 <?php
     echo 'Hello World!';
 ?>
+```
 
+```javascript
 var http = require('http');
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
