@@ -25,7 +25,7 @@ Most would be familiar with traditional hosting which requires the setup of a se
 As a developer your core competency is writing code, not managing servers. With cloud based deployment solutions, you're able to have all of the above features "out of the box". 
 # PaaS Providers
 Some of the bigger providers in the PaaS industry would be AWS, Salesforce/Heroku, Window Azure and Google Cloud. While all of these and more have a known precense in the industry, Amazon by far consumes the majority of the market share.
-![Image](undefined)
+
 ![Image](https://api.monosnap.com/rpc/file/download?id=nQDE2wjWhx33uWmm8NK8jjGM8QPdLv)
 
 
