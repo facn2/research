@@ -1,6 +1,6 @@
 Client side development is done almost exclusively in JavaScript. This is, of course, in addition to basic HTML and CSS code. The reason JavaScript is called a client side language is because it runs scripts on your computer after you’ve loaded a web page. 
 
-A decade ago, the general rule was to use server-side coding whenever possible and only use client-side code when necessary. But due to the fact that javascript can be utilized 
+A decade ago, the general rule was to use server-side coding whenever possible and only use client-side code when necessary. But due to the fact that javascript can be utilized both in the front and back-end, it has made JS one of the only full-stack language available.
 
 ![alt text](https://files.gitter.im/veredrec/N1ow/JS-vs-other.png)
 
