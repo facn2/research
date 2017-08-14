@@ -1,7 +1,7 @@
 # Attacks
 # Man In The Middle (MITM)
 
-##What is it?
+## What is it?
 
 
 A type of cyberattack where the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with each other.
@@ -10,7 +10,7 @@ A type of cyberattack where the attacker secretly relays and possibly alters the
 ![Image](https://www.digicert.com/wp-content/uploads/2017/05/phishing-mitm.png)
 
 
-###Examples:
+### Examples:
 
 
 * Let’s say you connect to a malicious wireless router — perhaps a ***router offering free Wi-Fi in a public location*** 
@@ -21,7 +21,7 @@ A type of cyberattack where the attacker secretly relays and possibly alters the
 * Sends bank details to you to avoid detection, and keeps eavesdropping on sensitive information until attacker gathers what he wants
 
 
-##Solution
+## Solutions:
 
 
 + Avoiding WiFi connections that aren’t password protected.
@@ -72,7 +72,7 @@ One of the most frequent targets are websites that allow users to share content,
 
 
 
-##Reflected (or persistent)
+## Reflected (or persistent)
 
 Reflected XSS involves the reflecting of a malicious script off of a web application, onto a user's browser. The script is embedded into a link, and is only activated once that link is clicked on.
 
@@ -81,7 +81,7 @@ Reflected XSS involves the reflecting of a malicious script off of a web applica
 ![Image](https://www.incapsula.com/images/illustrations/web-app-security-mini-site/reflected-xss.png)
 
 
-###Example
+### Example
 
 
 While visiting a forum site that requires users to log in to their account, a perpetrator executes this search query <script type='text/javascript'>alert('xss');</script> causing the following things to occur:
@@ -104,7 +104,7 @@ In fact, even if only one in every 1,000 recipients of the email click on the li
 
 
 
-##Solutions
+## Solutions
 
 + First and foremost, from the user's point-of-view, vigilance is the best way to avoid XSS scripting. 
 
@@ -165,8 +165,7 @@ This is how such a form may look like:
 ```
 
 
-
-##Solutions
+## Solutions
 + Logging off web applications when not in use
 + Securing usernames and passwords
 + Not allowing browsers to remember passwords
@@ -179,5 +178,3 @@ This is how such a form may look like:
 + Double submission of cookies is another well-known method to block CSRF. Similar to using unique tokens, random tokens are assigned to both a cookie and a request parameter. The server then verifies that the tokens match before granting access to the application.
 
 + Use custom rules
-
-
