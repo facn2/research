@@ -49,12 +49,12 @@ The aim is to enable the perpetrator to ***steal their session cookies*** and hi
 
 Cross site scripting attacks can be broken down into two types: ***stored*** and ***reflected***.
 
-##Stored XSS
+## Stored XSS
 
 Also known as persistent XSS, is the more damaging of the two. It occurs when a malicious script is injected directly into a vulnerable web application.
 
 ![Image](https://www.incapsula.com/images/illustrations/web-app-security-mini-site/sorted-XSS.png)
-###Example:
+### Example:
 
 While browsing an e-commerce website, a perpetrator discovers a vulnerability that allows HTML tags to be embedded in the site's comments section. The embedded tags become a permanent feature of the page, causing the browser to parse them with the rest of the source code every time the page is opened.
 
