@@ -48,7 +48,6 @@ function get(url) {
 }
  ```
  
-```
 
 
 ### Fetch 
