@@ -14,7 +14,41 @@ composable, promises  offer an ability to chain different functions together and
 #### How does promise work?
 
  ![diagram](https://files.gitter.im/sajedazoabi/Xb9H/thumb/Screenshot-from-2017-08-21-16-09-35.png)
+```
  
+ ```js
+function get(url) {
+  // Return a new promise.
+  return new Promise(function(resolve, reject) {
+    // Do the usual XHR stuff
+    var req = new XMLHttpRequest();
+    req.open('GET', url);
+    req.onload = function() {
+      // This is called even on 404 etc
+      // so check the status
+      if (req.status == 200) {
+        // Resolve the promise with the response text
+        resolve(req.response);
+      }
+      else {
+        // Otherwise reject with the status text
+        // which will hopefully be a meaningful error
+        reject(Error(req.statusText));
+      }
+    };
+
+    // Handle network errors
+    req.onerror = function() {
+      reject(Error("Network Error"));
+    };
+
+    // Make the request
+    req.send();
+  });
+}
+ ```
+ 
+```
 
 
 ### Fetch 
