@@ -42,3 +42,5 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 + [Attacks](./week7/Attacks.md)
 
 ## Week 8 - Express
+
++ [Sessions](./week8/sessions.md)
