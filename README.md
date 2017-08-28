@@ -31,16 +31,34 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 ## Week 4 - Node 1
 
++ [Deployment](./week-4/Deployment.md)
+
++ [Packaging](./week-4/packaging.md)
+
++ [Deployment](./week-4/Deployment.md)
+
++ [Engineering](./week-4/engineering.md)
+
 ## Week 5 - Node 2
 
 ## Week 6 - Postgres
 
++ [Build Scripts](./week-6/build_scripts.md)
+
++ [Script Injections](./week-6/script-injection.md)
+
 ## Week 7 - Authentication
 
-+ [stateless vs stateful authentication](.week7/stateless_vs_stateful_authentication.md)
++ [stateless vs stateful authentication](./week-7/stateless_vs_stateful_authentication.md)
 
-+ [Attacks](./week7/Attacks.md)
++ [Attacks](./week-7/Attacks.md)
+
++ [Web Storage](./week-7/web_storage.md)
 
 ## Week 8 - Express
 
-+ [Sessions](./week8/sessions.md)
++ [Sessions](./week-8/sessions.md)
+
++ [Fetch and Promises](./week-8/fetch-promises-research.md)
+
++ [Templating](./week-8/templating.md)
