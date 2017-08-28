@@ -35,11 +35,15 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 + [Packaging](./week-4/packaging.md)
 
++ [Deployment](./week-4/Deployment.md)
+
++ [Engineering](./week-4/engineering.md)
+
 ## Week 5 - Node 2
 
 ## Week 6 - Postgres
 
-+ [Build Scripts](./week-66/build_scripts.md)
++ [Build Scripts](./week-6/build_scripts.md)
 
 + [Script Injections](./week-6/script-injection.md)
 
@@ -53,8 +57,8 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 ## Week 8 - Express
 
-+ [Sessions](./week8/sessions.md)
++ [Sessions](./week-8/sessions.md)
 
-+ [Fetch and Promises](./week8/fetch-promises-research.md)
++ [Fetch and Promises](./week-8/fetch-promises-research.md)
 
-+ [Templating](./week8/templating.md)
++ [Templating](./week-8/templating.md)
